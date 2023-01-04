@@ -30,3 +30,6 @@ body {
     transform: translateX(-50%) translateY(-50%);
     font-size: 2.5vw;
 }
+h1 {
+    color: #242424;
+}
