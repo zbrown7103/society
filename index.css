@@ -110,3 +110,22 @@ h1 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+.background-image {
+    margin: auto;
+    width:35vw;
+    height: 35vw;
+    max-width: 900px;
+    max-height: 900px;
+    min-width: 400px;
+    min-height: 400px;
+    background-image: url("logo.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.background-image.hidden {
+    opacity: 0;
+}
