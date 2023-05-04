@@ -39,3 +39,4 @@ document.getElementById("go_button").addEventListener("click", async () => {
 
     await displayItems(inputAmount);
 });
+
