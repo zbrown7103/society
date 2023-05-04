@@ -2,7 +2,7 @@ function getRandomItems(items) {
     const keys = Object.keys(items);
     const randomItems = {};
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 7; i++) {
         const randomIndex = Math.floor(Math.random() * keys.length);
         const key = keys[randomIndex];
         randomItems[key] = items[key];
